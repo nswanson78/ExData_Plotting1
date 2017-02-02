@@ -7,6 +7,5 @@ plot3<-function(){
     lines(val,febData$Sub_metering_2,col="red") 
     lines(val,febData$Sub_metering_3,col="blue") 
     legend("topright",col=c("black","red","blue"),legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lwd="1")
-    ##Need the 3 sub_metering vals, black,red,blue, a legend in the upper right, no xlab, ylab
     dev.off()
 }
